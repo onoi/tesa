@@ -13,7 +13,7 @@ use Onoi\Tesa\StopwordAnalyzer\NullStopwordAnalyzer;
  *
  * @author mwjames
  */
-class NullStopwordAnalyzerTest extends \PHPUnit_Framework_TestCase {
+class NullStopwordAnalyzerTest extends \PHPUnit\Framework\TestCase {
 
 	public function testCanConstruct() {
 

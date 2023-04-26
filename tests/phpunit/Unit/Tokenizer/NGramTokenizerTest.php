@@ -13,7 +13,7 @@ use Onoi\Tesa\Tokenizer\NGramTokenizer;
  *
  * @author mwjames
  */
-class NGramTokenizerTest extends \PHPUnit_Framework_TestCase {
+class NGramTokenizerTest extends \PHPUnit\Framework\TestCase {
 
 	public function testCanConstruct() {
 

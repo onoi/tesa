@@ -13,7 +13,7 @@ use Onoi\Tesa\StopwordAnalyzer\ArrayStopwordAnalyzer;
  *
  * @author mwjames
  */
-class ArrayStopwordAnalyzerTest extends \PHPUnit_Framework_TestCase {
+class ArrayStopwordAnalyzerTest extends \PHPUnit\Framework\TestCase {
 
 	public function testCanConstruct() {
 

@@ -13,7 +13,7 @@ use Onoi\Tesa\Tokenizer\PunctuationRegExTokenizer;
  *
  * @author mwjames
  */
-class PunctuationRegExTokenizerTest extends \PHPUnit_Framework_TestCase {
+class PunctuationRegExTokenizerTest extends \PHPUnit\Framework\TestCase {
 
 	public function testCanConstruct() {
 

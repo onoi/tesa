@@ -13,7 +13,7 @@ use Onoi\Tesa\CharacterExaminer;
  *
  * @author mwjames
  */
-class CharacterExaminerTest extends \PHPUnit_Framework_TestCase {
+class CharacterExaminerTest extends \PHPUnit\Framework\TestCase {
 
 	public function testToContainKoreanCharacters() {
 		$this->assertTrue(

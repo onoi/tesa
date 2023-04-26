@@ -13,7 +13,7 @@ use Onoi\Tesa\Tokenizer\GenericRegExTokenizer;
  *
  * @author mwjames
  */
-class GenericRegExTokenizerTest extends \PHPUnit_Framework_TestCase {
+class GenericRegExTokenizerTest extends \PHPUnit\Framework\TestCase {
 
 	public function testUnknownOption() {
 

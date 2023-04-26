@@ -13,7 +13,7 @@ use Onoi\Tesa\Synonymizer\NullSynonymizer;
  *
  * @author mwjames
  */
-class NullSynonymizerTest extends \PHPUnit_Framework_TestCase {
+class NullSynonymizerTest extends \PHPUnit\Framework\TestCase {
 
 	public function testCanConstruct() {
 

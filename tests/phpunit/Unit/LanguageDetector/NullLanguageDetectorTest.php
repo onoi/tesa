@@ -13,7 +13,7 @@ use Onoi\Tesa\LanguageDetector\NullLanguageDetector;
  *
  * @author mwjames
  */
-class NullLanguageDetectorTest extends \PHPUnit_Framework_TestCase {
+class NullLanguageDetectorTest extends \PHPUnit\Framework\TestCase {
 
 	public function testCanConstruct() {
 

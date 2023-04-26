@@ -12,7 +12,7 @@ use Onoi\Tesa\SanitizerFactory;
  *
  * @author mwjames
  */
-class CombinedSanitizerTextStopwordTest extends \PHPUnit_Framework_TestCase {
+class CombinedSanitizerTextStopwordTest extends \PHPUnit\Framework\TestCase {
 
 	/**
 	 * @dataProvider textByLanguageProvider

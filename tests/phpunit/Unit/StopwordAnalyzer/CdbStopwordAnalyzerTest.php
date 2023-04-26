@@ -3,6 +3,7 @@
 namespace Onoi\Tesa\Tests\StopwordAnalyzer;
 
 use Onoi\Tesa\StopwordAnalyzer\CdbStopwordAnalyzer;
+use RuntimeException;
 
 /**
  * @covers \Onoi\Tesa\StopwordAnalyzer\CdbStopwordAnalyzer
@@ -13,11 +14,11 @@ use Onoi\Tesa\StopwordAnalyzer\CdbStopwordAnalyzer;
  *
  * @author mwjames
  */
-class CdbStopwordAnalyzerTest extends \PHPUnit_Framework_TestCase {
+class CdbStopwordAnalyzerTest extends \PHPUnit\Framework\TestCase {
 
 	public function testTryToCreateCdbByLanguageOnInvalidLanguageThrowsException() {
 
-		$this->setExpectedException( 'RuntimeException' );
+		$this->expectException( RuntimeException::class );
 
 		CdbStopwordAnalyzer::createCdbByLanguage(
 			CdbStopwordAnalyzer::getLocation(),
@@ -27,7 +28,7 @@ class CdbStopwordAnalyzerTest extends \PHPUnit_Framework_TestCase {
 
 	public function testTryToCreateCdbByLanguageOnInvalidJsonIndexThrowsException() {
 
-		$this->setExpectedException( 'RuntimeException' );
+		$this->expectException( RuntimeException::class );
 
 		CdbStopwordAnalyzer::createCdbByLanguage(
 			__DIR__ . '/../../Fixtures/StopwordAnalyzer/',
@@ -37,7 +38,7 @@ class CdbStopwordAnalyzerTest extends \PHPUnit_Framework_TestCase {
 
 	public function testTryToCreateCdbByLanguageOnInvalidJsonThrowsException() {
 
-		$this->setExpectedException( 'RuntimeException' );
+		$this->expectException( RuntimeException::class );
 
 		CdbStopwordAnalyzer::createCdbByLanguage(
 			__DIR__ . '/../../Fixtures/StopwordAnalyzer/',

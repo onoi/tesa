@@ -13,7 +13,7 @@ use Onoi\Tesa\Tokenizer\JaCompoundGroupTokenizer;
  *
  * @author mwjames
  */
-class JaCompoundGroupTokenizerTest extends \PHPUnit_Framework_TestCase {
+class JaCompoundGroupTokenizerTest extends \PHPUnit\Framework\TestCase {
 
 	public function testUnknownOption() {
 

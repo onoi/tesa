@@ -13,7 +13,7 @@ use Onoi\Tesa\Tokenizer\CJKSimpleCharacterRegExTokenizer;
  *
  * @author mwjames
  */
-class CJKSimpleCharacterRegExTokenizerTest extends \PHPUnit_Framework_TestCase {
+class CJKSimpleCharacterRegExTokenizerTest extends \PHPUnit\Framework\TestCase {
 
 	public function testUnknownOption() {
 

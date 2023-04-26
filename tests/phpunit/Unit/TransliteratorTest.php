@@ -13,7 +13,7 @@ use Onoi\Tesa\Transliterator;
  *
  * @author mwjames
  */
-class TransliteratorTest extends \PHPUnit_Framework_TestCase {
+class TransliteratorTest extends \PHPUnit\Framework\TestCase {
 
 	/**
 	 * @dataProvider characterProvider
