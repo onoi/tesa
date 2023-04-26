@@ -13,7 +13,7 @@ use Onoi\Tesa\Tokenizer\JaTinySegmenterTokenizer;
  *
  * @author mwjames
  */
-class JaTinySegmenterTokenizerTest extends \PHPUnit_Framework_TestCase {
+class JaTinySegmenterTokenizerTest extends \PHPUnit\Framework\TestCase {
 
 	public function testCanConstruct() {
 

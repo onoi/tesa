@@ -12,7 +12,7 @@ use Onoi\Tesa\SanitizerFactory;
  *
  * @author mwjames
  */
-class JaTokenizerTest extends \PHPUnit_Framework_TestCase {
+class JaTokenizerTest extends \PHPUnit\Framework\TestCase {
 
 	/**
 	 * @dataProvider icuTextProvider
@@ -25,7 +25,7 @@ class JaTokenizerTest extends \PHPUnit_Framework_TestCase {
 			$sanitizerFactory->newGenericRegExTokenizer()
 		);
 
-		if ( !$tokenier->isAvailable() || INTL_ICU_VERSION != '54.1' ) {
+		if ( !$tokenier->isAvailable() || version_compare(INTL_ICU_VERSION, '54.1', '<') ) {
 			$this->markTestSkipped( 'ICU extension is not available or does not match the expected version constraint.' );
 		}
 

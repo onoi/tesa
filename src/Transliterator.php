@@ -269,7 +269,7 @@ class Transliterator {
 	 */
 	public static function transliterate( $string, $flag = self::DIACRITICS ) {
 
-		if ( $flag === ( $flag | self::NONE ) ) {
+		if ( !is_int($flag) || $flag === ( $flag | self::NONE ) ) {
 			return $string;
 		}
 

@@ -14,7 +14,7 @@ use Onoi\Tesa\SanitizerFactory;
  *
  * @author mwjames
  */
-class SanitizerTest extends \PHPUnit_Framework_TestCase {
+class SanitizerTest extends \PHPUnit\Framework\TestCase {
 
 	private $sanitizerFactory;
 

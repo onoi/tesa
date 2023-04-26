@@ -13,7 +13,7 @@ use Onoi\Tesa\LanguageDetector\TextCatLanguageDetector;
  *
  * @author mwjames
  */
-class TextCatLanguageDetectorTest extends \PHPUnit_Framework_TestCase {
+class TextCatLanguageDetectorTest extends \PHPUnit\Framework\TestCase {
 
 	public function testCanConstruct() {
 
